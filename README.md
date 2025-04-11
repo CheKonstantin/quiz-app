@@ -6,7 +6,7 @@
 <img src="https://github.com/user-attachments/assets/c6660b2d-a383-4279-a728-493902653614" height="200px" width="auto"/>
 <img src="https://github.com/user-attachments/assets/6a0efe58-b1c6-4089-bd08-8f83b9eb9fce" height="200px" width="auto"/>
 
-## Cсылка на проект
+## Cсылка
 
 [Посмотреть проект](https://chekonstantin.github.io/quiz-app/)
 
