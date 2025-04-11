@@ -30,6 +30,18 @@ npm run build
 npm run lint
 ```
 
+### Predeploy
+
+```
+npm run predeploy
+```
+
+### Deploy
+
+```
+npm run deploy
+```
+
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
