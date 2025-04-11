@@ -29,6 +29,7 @@
 <script>
 import Questions from "./components/Questions.vue";
 import Results from "./components/Results.vue";
+import MockQuestions from "./components/questions";
 
 export default {
   name: "App",
@@ -41,151 +42,7 @@ export default {
     return {
       answeredQuestions: 0,
       totalCorrect: 0,
-      questions: [
-        {
-          q: "какого из океанов не существует?",
-          answers: [
-            {
-              text: "Тихого",
-              is_correct: false,
-            },
-            {
-              text: "Северо-Атлантического",
-              is_correct: true,
-            },
-            {
-              text: "Индийского",
-              is_correct: false,
-            },
-            {
-              text: "Южного",
-              is_correct: false,
-            },
-          ],
-        },
-        {
-          q: "Индия - это бывшая колония какой страны?",
-          answers: [
-            {
-              text: "США",
-              is_correct: false,
-            },
-            {
-              text: "Германии",
-              is_correct: false,
-            },
-            {
-              text: "Англии",
-              is_correct: true,
-            },
-            {
-              text: "Голландии",
-              is_correct: false,
-            },
-          ],
-        },
-        {
-          q: "Сколько часовых поясов проходит через Россию?",
-          answers: [
-            {
-              text: "8",
-              is_correct: false,
-            },
-            {
-              text: "9",
-              is_correct: true,
-            },
-            {
-              text: "5",
-              is_correct: false,
-            },
-            {
-              text: "12",
-              is_correct: false,
-            },
-          ],
-        },
-        {
-          q: "Чем стал известен миру Николай Коперник?",
-          answers: [
-            {
-              text: "Изобрел телескоп",
-              is_correct: false,
-            },
-            {
-              text: "Создал геоцентрическую систему",
-              is_correct: false,
-            },
-            {
-              text: "Первым описал строение Земли",
-              is_correct: false,
-            },
-            {
-              text: "Создал гелеоцентрическую систему",
-              is_correct: true,
-            },
-          ],
-        },
-        {
-          q: "Что вырастет быстрее?",
-          answers: [
-            {
-              text: "Геометрическая прогрессия",
-              is_correct: true,
-            },
-            {
-              text: "Арифметическая прогрессия",
-              is_correct: false,
-            },
-            {
-              text: "Алгебраическая прогрессия",
-              is_correct: false,
-            },
-            {
-              text: "Прогрессия 'Перельмана - Пуанкаре'",
-              is_correct: false,
-            },
-          ],
-        },
-        {
-          q: "Назовите столицу Хорватии",
-          answers: [
-            {
-              text: "Любляна",
-              is_correct: false,
-            },
-            {
-              text: "Сараево",
-              is_correct: false,
-            },
-            {
-              text: "Загреб",
-              is_correct: true,
-            },
-            {
-              text: "Бухарест",
-              is_correct: false,
-            },
-          ],
-        },
-        {
-          q: "Что не относится к чудесам света?",
-          answers: [
-            {
-              text: "Висячие сады Семирамиды",
-              is_correct: false,
-            },
-            {
-              text: "Великая китайская стена",
-              is_correct: true,
-            },
-            {
-              text: "Храм Артемиды в Эфесе",
-              is_correct: false,
-            },
-          ],
-        },
-      ],
+      questions: MockQuestions,
       results: [
         {
           min: 0,
@@ -195,13 +52,13 @@ export default {
         },
         {
           min: 5,
-          max: 7,
+          max: 10,
           title: "Неплохо!",
           desc: "Не зря вы ходили в школу!",
         },
         {
-          min: 7,
-          max: 7,
+          min: 10,
+          max: 15,
           title: "Вау, да вы гений!",
           desc: "Вам еще не дали Нобелевскую премию по эрудиции?!",
         },
