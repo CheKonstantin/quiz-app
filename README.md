@@ -6,32 +6,32 @@
 <img src="https://github.com/user-attachments/assets/c6660b2d-a383-4279-a728-493902653614" height="200px" width="auto"/>
 <img src="https://github.com/user-attachments/assets/6a0efe58-b1c6-4089-bd08-8f83b9eb9fce" height="200px" width="auto"/>
 
-## Cсылка
-
 ## Стэк
 Vue3, JavaScript, HTML, CSS
 
+## Cсылка
+
 [Посмотреть проект](https://chekonstantin.github.io/quiz-app/)
 
-## Project setup
+## Установка зависимостей
 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Компиляция и горячая перезагрузка для сервера разработки
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Компилирует и минимизирует для продакшена
 
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Поиск и исправление ошибок
 
 ```
 npm run lint
@@ -48,7 +48,3 @@ npm run predeploy
 ```
 npm run deploy
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
