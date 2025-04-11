@@ -8,6 +8,9 @@
 
 ## Cсылка
 
+## Стэк
+Vue3, JavaScript, HTML, CSS
+
 [Посмотреть проект](https://chekonstantin.github.io/quiz-app/)
 
 ## Project setup
